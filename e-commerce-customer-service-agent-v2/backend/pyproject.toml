@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecommerce-customer-service"
+version = "1.0.0"
+description = "电商智能客服系统 — Vue3 + FastAPI + LLM + RAG + Agent"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = [
+    "integration: 集成测试（依赖 Redis/外部组件，可用 fakeredis 等内存替身运行）",
+]

@@ -1,0 +1,44 @@
+# 电商智能客服系统 — Python 依赖
+
+# Web 框架
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# 数据库（可选，服务可在无 MySQL 时运行）
+sqlalchemy[asyncio]==2.0.25
+aiomysql==0.2.0
+pymysql==1.1.0
+aiosqlite>=0.19.0  # SQLite 异步驱动：本地回退 / 测试（落库与持久化测试依赖）
+redis==5.0.1
+
+# 向量数据库（可选）
+chromadb>=0.4.0
+
+# 安全认证
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# 数据验证
+pydantic==2.6.1
+pydantic-settings==2.1.0
+email-validator==2.1.0.post1
+
+# HTTP 客户端
+httpx==0.27.2
+tenacity==8.2.3
+
+# 日志
+loguru==0.7.2
+
+# 环境变量
+python-dotenv==1.0.1
+
+# 可观测性
+langfuse>=3.0.0
+# Prometheus 指标（：/metrics 端点）
+prometheus_client>=0.19.0
+
+# 测试
+pytest==8.0.0
+pytest-asyncio>=0.23.5
