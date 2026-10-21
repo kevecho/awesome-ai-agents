@@ -1,0 +1,20 @@
+# config/intent_config.yaml
+nlu:
+  intent_threshold: 0.6
+  enable_multilabel: true
+  fallback_confidence: 0.4
+
+  # 意图分类器配置
+  classifier:
+    type: "llm"  # rule / ml / llm
+    model: "text-classification"
+
+  # 实体识别配置
+  entity:
+    enable: true
+    types:
+      - order_no
+      - phone
+      - product_name
+      - price
+      - date

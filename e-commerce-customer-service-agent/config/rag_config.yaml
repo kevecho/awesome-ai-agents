@@ -1,0 +1,18 @@
+# config/rag_config.yaml
+rag:
+  embedding:
+    provider: "openai"  # openai / local
+    model: "text-embedding-ada-002"
+    dimension: 1536
+    batch_size: 100
+
+  vector_store:
+    type: "milvus"  # milvus / qdrant / chroma / faiss
+    collection: "knowledge_base"
+    top_k: 5
+    similarity_threshold: 0.7
+
+  retrieval:
+    rerank: true
+    rerank_model: "cross-encoder/ms-marco-MiniLM-L-6v2"
+    max_context_length: 4000

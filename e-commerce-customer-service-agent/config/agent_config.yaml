@@ -1,0 +1,17 @@
+# config/agent_config.yaml
+agent:
+  name: "小e"
+  personality: "专业、友好、有耐心"
+
+  # ReAct 配置
+  react:
+    max_iterations: 5
+    timeout_seconds: 30
+    enable_reflection: true
+
+  # 转人工策略
+  transfer:
+    auto_transfer_on_complaint: true
+    auto_transfer_on_negative: true
+    auto_transfer_threshold: -0.5  # 情感得分阈值
+    manual_trigger_keywords: ["人工", "客服", "真人"]
