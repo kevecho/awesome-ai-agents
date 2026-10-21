@@ -175,3 +175,6 @@ cython_debug/
 # Node.js
 node_modules/
 /.idea/
+
+# chroma
+chroma_db/
