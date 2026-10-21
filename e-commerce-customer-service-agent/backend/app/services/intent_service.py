@@ -164,16 +164,15 @@ class IntentService:
 
     async def _llm_understand(self, text: str) -> Optional[IntentResult]:
         """Use LLM for deep semantic intent understanding."""
-        prompt = f"""Analyze the user's intent from the following message.
-Respond ONLY with a JSON object.
+        prompt = f"""分析用户输入的意图.
 
-Available intents: order_query, order_modify, cancel_order, refund_request,
+可选意图: order_query, order_modify, cancel_order, refund_request,
 product_inquiry, promotion, shipping_info, payment_issue, complaint,
 human_agent, greeting, other.
 
-User message: "{text}"
+用户输入: "{text}"
 
-Return: {{"intent_code": "xxx", "confidence": 0.0-1.0}}"""
+返回JSON: {{"intent_code": "xxx", "confidence": 0.0-1.0}}"""
 
         try:
             response = await self.llm_service.generate(prompt, temperature=0.1)

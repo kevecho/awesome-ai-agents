@@ -9,12 +9,16 @@ import sys
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator
 
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
+load_dotenv(verbose=True)
 
 from app.core.config import settings
 from app.core.database import engine
 from app.utils.logger import setup_logger
+
 
 logger = setup_logger(__name__)
 
@@ -90,6 +94,7 @@ app.include_router(order_router, prefix=f"{API_PREFIX}/order", tags=["Order"])
 app.include_router(product_router, prefix=f"{API_PREFIX}/product", tags=["Product"])
 app.include_router(analytics_router, prefix=f"{API_PREFIX}/analytics", tags=["Analytics"])
 app.include_router(auth_router, prefix=f"{API_PREFIX}/auth", tags=["Auth"])
+
 
 
 @app.get("/")
