@@ -1,0 +1,126 @@
+/* ============================================
+   AI Medical Consultant - Premium Design System
+   ============================================ */
+
+/* ---- Element Plus Theme Overrides ---- */
+:root {
+  --el-color-primary: #4F8DFF;
+  --el-color-primary-light-3: #7AACFF;
+  --el-color-primary-light-5: #A3C8FF;
+  --el-color-primary-light-7: #C8DFFF;
+  --el-color-primary-light-8: #DFEDFF;
+  --el-color-primary-light-9: #F0F6FF;
+  --el-color-primary-dark-2: #3A6FD9;
+  --el-color-success: #34C759;
+  --el-color-warning: #FF9500;
+  --el-color-danger: #FF3B30;
+  --el-color-info: #8E8E93;
+  --el-border-radius-base: 12px;
+  --el-border-radius-small: 8px;
+  --el-font-size-base: 14px;
+  --el-font-size-small: 12px;
+  --el-font-size-large: 16px;
+  --el-font-weight-primary: 500;
+  --el-transition-duration: 0.3s;
+  --el-transition-function-ease-in-out-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.2); }
+
+/* ---- Typography ---- */
+.typo-h1 { font-size: 28px; font-weight: 700; line-height: 1.4; }
+.typo-h2 { font-size: 24px; font-weight: 600; line-height: 1.4; }
+.typo-h3 { font-size: 20px; font-weight: 600; line-height: 1.4; }
+.typo-h4 { font-size: 16px; font-weight: 500; line-height: 1.5; }
+.typo-body { font-size: 14px; font-weight: 400; line-height: 1.6; }
+.typo-small { font-size: 12px; font-weight: 400; line-height: 1.5; }
+
+/* ---- Glass Card Utility ---- */
+.glass-card {
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.06);
+  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.glass-card:hover {
+  box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+/* ---- Gradient Text ---- */
+.gradient-text {
+  background: linear-gradient(135deg, #4F8DFF 0%, #7C4DFF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ---- Animations ---- */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(79,141,255,0.3); }
+  50% { box-shadow: 0 0 40px rgba(79,141,255,0.6); }
+}
+@keyframes breathing {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+@keyframes typingDot {
+  0%, 80%, 100% { transform: scale(0); opacity: 0.3; }
+  40% { transform: scale(1); opacity: 1; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ---- Route Transitions ---- */
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fade-slide-enter-from { opacity: 0; transform: translateY(16px); }
+.fade-slide-leave-to { opacity: 0; transform: translateY(-8px); }
+
+.fade-enter-active,
+.fade-leave-active { transition: opacity 0.25s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }
+
+/* ---- Skeleton Loading shimmer ---- */
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}

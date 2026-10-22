@@ -1,0 +1,231 @@
+[
+  {
+    "_注释": "=== 类别 1: 同义改写 (synonym) — 8 条 ===",
+    "_说明": "用户用口语/俗语表达，文档用专业术语，验证 embedding 语义鲁棒性"
+  },
+  {
+    "id": 1,
+    "query": "吃什么能退烧",
+    "type": "synonym",
+    "category": "drug",
+    "relevant_titles": ["对乙酰氨基酚片", "布洛芬"]
+  },
+  {
+    "id": 2,
+    "query": "睡不好觉老是醒了睡不着",
+    "type": "synonym",
+    "category": "disease",
+    "relevant_titles": ["失眠", "睡眠障碍"]
+  },
+  {
+    "id": 3,
+    "query": "拉肚子止不住有啥药",
+    "type": "synonym",
+    "category": "drug",
+    "relevant_titles": ["蒙脱石散", "腹泻"]
+  },
+  {
+    "id": 4,
+    "query": "血压高的人吃东西要注意啥",
+    "type": "synonym",
+    "category": "disease",
+    "relevant_titles": ["高血压", "肾血管性高血压"]
+  },
+  {
+    "id": 5,
+    "query": "血糖高是不是就是糖尿病",
+    "type": "synonym",
+    "category": "disease",
+    "relevant_titles": ["糖尿病"]
+  },
+  {
+    "id": 6,
+    "query": "抽血看哪些指标能知道有没有炎症",
+    "type": "synonym",
+    "category": "exam",
+    "relevant_titles": ["血常规检查", "C反应蛋白"]
+  },
+  {
+    "id": 7,
+    "query": "老咳嗽有痰怎么办",
+    "type": "synonym",
+    "category": "disease",
+    "relevant_titles": ["咳嗽", "慢性支气管炎", "cough_guide_2024"]
+  },
+  {
+    "id": 8,
+    "query": "胃不舒服烧心返酸水",
+    "type": "synonym",
+    "category": "disease",
+    "relevant_titles": ["胃食管反流", "胃炎", "消化性溃疡"]
+  },
+
+  {
+    "_注释": "=== 类别 2: 多跳 (multi_hop) — 8 条 ===",
+    "_说明": "答案需跨两个不同 chunk 拼合，Recall_pair@K 要求两个都在 top-K"
+  },
+  {
+    "id": 9,
+    "query": "糖尿病患者感冒了能吃布洛芬吗",
+    "type": "multi_hop",
+    "category": "drug",
+    "relevant_titles": ["糖尿病", "布洛芬"]
+  },
+  {
+    "id": 10,
+    "query": "高血压又有痛风该用什么降压药",
+    "type": "multi_hop",
+    "category": "drug",
+    "relevant_titles": ["高血压", "痛风"]
+  },
+  {
+    "id": 11,
+    "query": "孕妇贫血吃什么补血",
+    "type": "multi_hop",
+    "category": "disease",
+    "relevant_titles": ["妊娠", "贫血"]
+  },
+  {
+    "id": 12,
+    "query": "儿童发热用什么退烧药安全",
+    "type": "multi_hop",
+    "category": "drug",
+    "relevant_titles": ["发热", "对乙酰氨基酚片"]
+  },
+  {
+    "id": 13,
+    "query": "老年人高血压合并冠心病怎么用药",
+    "type": "multi_hop",
+    "category": "disease",
+    "relevant_titles": ["高血压", "冠心病"]
+  },
+  {
+    "id": 14,
+    "query": "肝功能不好的人感冒了不能吃什么药",
+    "type": "multi_hop",
+    "category": "drug",
+    "relevant_titles": ["肝功能", "感冒"]
+  },
+  {
+    "id": 15,
+    "query": "吃阿司匹林期间能做手术吗",
+    "type": "multi_hop",
+    "category": "drug",
+    "relevant_titles": ["阿司匹林", "手术"]
+  },
+  {
+    "id": 16,
+    "query": "肾病综合征用激素治疗需要注意什么",
+    "type": "multi_hop",
+    "category": "disease",
+    "relevant_titles": ["肾病综合征", "糖皮质激素"]
+  },
+
+  {
+    "_注释": "=== 类别 3: 否定/约束 (constraint) — 8 条 ===",
+    "_说明": "含排除意图或限定条件, 验证 top-K 覆盖排除后的正确答案"
+  },
+  {
+    "id": 17,
+    "query": "除了布洛芬还有啥止痛的",
+    "type": "constraint",
+    "category": "drug",
+    "relevant_titles": ["对乙酰氨基酚片", "阿司匹林"]
+  },
+  {
+    "id": 18,
+    "query": "孕妇不能用哪些降压药",
+    "type": "constraint",
+    "category": "drug",
+    "relevant_titles": ["妊娠", "高血压"]
+  },
+  {
+    "id": 19,
+    "query": "不伤肠胃的止疼药有哪些",
+    "type": "constraint",
+    "category": "drug",
+    "relevant_titles": ["对乙酰氨基酚片"]
+  },
+  {
+    "id": 20,
+    "query": "小孩发烧不能吃阿司匹林，那吃啥退烧药",
+    "type": "constraint",
+    "category": "drug",
+    "relevant_titles": ["对乙酰氨基酚片", "布洛芬"]
+  },
+  {
+    "id": 21,
+    "query": "不抽烟不喝酒为什么还会得肺癌",
+    "type": "constraint",
+    "category": "disease",
+    "relevant_titles": ["肺癌"]
+  },
+  {
+    "id": 22,
+    "query": "不靠吃药怎么把血压降下来",
+    "type": "constraint",
+    "category": "disease",
+    "relevant_titles": ["高血压"]
+  },
+  {
+    "id": 23,
+    "query": "除了抽血还有什么方式能查血糖",
+    "type": "constraint",
+    "category": "exam",
+    "relevant_titles": ["糖尿病", "血糖监测"]
+  },
+  {
+    "id": 24,
+    "query": "不用抗生素怎么治尿路感染",
+    "type": "constraint",
+    "category": "disease",
+    "relevant_titles": ["尿路感染"]
+  },
+
+  {
+    "_注释": "=== 类别 4: 无答案 (no_answer) — 6 条 ===",
+    "_说明": "知识库不可能覆盖的问题, 考察系统是否拒答而非硬编. relevant_titles 为空表示不应检索到相关文档."
+  },
+  {
+    "id": 25,
+    "query": "2026年新款降压药的FDA批准情况",
+    "type": "no_answer",
+    "category": "drug",
+    "relevant_titles": []
+  },
+  {
+    "id": 26,
+    "query": "我想知道我自己今天吃了两个包子血糖会不会高",
+    "type": "no_answer",
+    "category": "disease",
+    "relevant_titles": []
+  },
+  {
+    "id": 27,
+    "query": "俺村里老中医给的草药秘方治糖尿病管用吗",
+    "type": "no_answer",
+    "category": "disease",
+    "relevant_titles": []
+  },
+  {
+    "id": 28,
+    "query": "用手机是不是会得脑瘤",
+    "type": "no_answer",
+    "category": "disease",
+    "relevant_titles": []
+  },
+  {
+    "id": 29,
+    "query": "市一医院心内李主任周四上午坐诊吗",
+    "type": "no_answer",
+    "category": "exam",
+    "relevant_titles": []
+  },
+  {
+    "id": 30,
+    "query": "DeepSeek和ChatGPT哪个看病更准",
+    "type": "no_answer",
+    "category": "disease",
+    "relevant_titles": []
+  }
+]

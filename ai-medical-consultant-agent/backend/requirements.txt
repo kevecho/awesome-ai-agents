@@ -1,0 +1,68 @@
+# AI Medical Consultant - Backend Dependencies
+# ============================================
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.18
+
+# WebSocket
+websockets==14.1
+
+# Database
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# Cache
+redis==5.2.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+
+# AI / LLM
+langchain==0.3.13
+langchain-community==0.3.13
+langchain-openai==0.2.14
+openai==1.58.1
+dashscope==1.21.0
+
+# Embedding & Vector DB
+sentence-transformers==3.3.1
+faiss-cpu>=1.8.0
+# torch — install with CUDA support separately:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   (For RTX 50xx Blackwell, use nightly: pip install torch --index-url https://download.pytorch.org/whl/nightly/cu128)
+# chromadb==0.5.23  # 需要MSVC编译，Windows建议使用FAISS
+
+# Document Processing
+pypdf2==3.0.1
+pdfplumber>=0.11.0
+python-docx==1.1.2
+markdown==3.7
+
+# JSON Stream Parsing (bulk import)
+ijson>=3.2.0
+
+# Data Validation
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# HTTP Client
+httpx==0.28.1
+aiohttp==3.11.11
+
+# Logging
+loguru==0.7.3
+
+# CORS
+# (handled by FastAPI's built-in CORSMiddleware)
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.1

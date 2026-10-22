@@ -1,0 +1,10 @@
+# +真BM25 实验配置 — jieba 分词 + rank_bm25 (k1=1.2, b=0.75, 停用词)
+# 对比 baseline (假 BM25 字符级重叠) 看检索质量提升
+name: "+真BM25 (jieba分词+停用词)"
+description: "真 BM25 (jieba分词+IDF+TF饱和k1=1.2+长度归一b=0.75+停用词) + 稠密检索 + RRF 融合"
+params:
+  top_k: 20
+  score_threshold: 0.0
+  bm25_k1: 1.2
+  bm25_b: 0.75
+  use_stopwords: true

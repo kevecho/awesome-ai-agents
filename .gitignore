@@ -1,3 +1,8 @@
+# ==================== Sensitive ====================
+.env
+*.pem
+*.key
+
 ### Vue template
 # gitignore template for Vue.js projects
 #

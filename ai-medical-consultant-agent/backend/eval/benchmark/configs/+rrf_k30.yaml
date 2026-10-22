@@ -1,0 +1,10 @@
+# RRF k=30 — 中等平滑
+name: "+BM25 +RRF_k30"
+description: "真 BM25 + 稠密检索 + RRF 融合 (k=30, 中等平滑)"
+params:
+  top_k: 20
+  score_threshold: 0.0
+  rrf_k: 30
+  bm25_k1: 1.2
+  bm25_b: 0.75
+  use_stopwords: true

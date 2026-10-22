@@ -1,0 +1,15 @@
+# +LLM Query Expansion — DeepSeek 口语→医学术语改写
+name: "+LLM改写 (DeepSeek术语扩展)"
+description: "真 BM25 + 稠密检索 + RRF 融合 + LLM 口语→医学改写 + Rerank (50→10)"
+params:
+  top_k: 20
+  score_threshold: 0.0
+  rrf_k: 60
+  query_expansion: "llm"
+  bm25_k1: 1.2
+  bm25_b: 0.75
+  use_stopwords: true
+  rerank_enabled: true
+  rerank_candidates: 50
+  rerank_top_k: 10
+  rerank_batch_size: 8

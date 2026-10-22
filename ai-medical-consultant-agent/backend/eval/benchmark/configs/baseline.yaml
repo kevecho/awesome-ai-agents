@@ -1,0 +1,7 @@
+# 基线配置 — 当前系统默认参数
+# 用法: py -m eval.benchmark.run --config baseline
+name: "基线 (Naive RAG)"
+description: "双路检索 (Dense + Sparse) + RRF 融合，无重排序，无 Query Expansion"
+params:
+  top_k: 20
+  score_threshold: 0.0

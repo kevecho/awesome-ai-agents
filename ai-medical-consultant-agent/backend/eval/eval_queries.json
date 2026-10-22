@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "query": "感冒发烧38度吃什么药",
+    "category": "disease",
+    "relevant_titles": ["小儿感冒", "对乙酰氨基酚片"]
+  },
+  {
+    "id": 2,
+    "query": "高血压患者日常饮食注意事项",
+    "category": "disease",
+    "relevant_titles": ["高血压", "肾血管性高血压"]
+  },
+  {
+    "id": 3,
+    "query": "糖尿病早期有什么症状",
+    "category": "disease",
+    "relevant_titles": ["糖尿病", "中医内科学/糖尿病症状", "糖尿病足病"]
+  },
+  {
+    "id": 4,
+    "query": "拉肚子呕吐怎么办",
+    "category": "disease",
+    "relevant_titles": ["腹泻", "急性胃肠炎", "呕吐", "儿童腹泻与呕吐"]
+  },
+  {
+    "id": 5,
+    "query": "布洛芬和对乙酰氨基酚的区别",
+    "category": "drug",
+    "relevant_titles": ["对乙酰氨基酚片", "布洛芬"]
+  },
+  {
+    "id": 6,
+    "query": "血常规检查怎么看",
+    "category": "exam",
+    "relevant_titles": ["血常规检查", "血小板减少性紫癜", "特发性血小板减少性紫癜"]
+  },
+  {
+    "id": 7,
+    "query": "胸痛呼吸困难是不是心脏问题",
+    "category": "disease",
+    "relevant_titles": ["冠心病", "不稳定型心绞痛", "心肌梗死", "急性心肌梗死"]
+  },
+  {
+    "id": 8,
+    "query": "儿童肺炎有哪些症状",
+    "category": "disease",
+    "relevant_titles": ["肺炎", "社区获得性肺炎", "医院获得性肺炎", "儿童肺炎支原体肺炎"]
+  },
+  {
+    "id": 9,
+    "query": "发热待查应该做哪些检查",
+    "category": "exam",
+    "relevant_titles": ["血常规检查", "fever_consensus_2026"]
+  },
+  {
+    "id": 10,
+    "query": "降血糖的药有哪些",
+    "category": "drug",
+    "relevant_titles": ["糖尿病", "diabetes_guide_2024"]
+  },
+  {
+    "id": 11,
+    "query": "老年人高血压吃什么降压药",
+    "category": "drug",
+    "relevant_titles": ["高血压", "肾血管性高血压", "diabetes_guide_2024"]
+  },
+  {
+    "id": 12,
+    "query": "怀孕期间感冒了怎么处理",
+    "category": "disease",
+    "relevant_titles": ["感冒", "小儿感冒", "妊娠", "孕期", "对乙酰氨基酚片"]
+  },
+  {
+    "id": 13,
+    "query": "咳嗽一个月了还没好",
+    "category": "disease",
+    "relevant_titles": ["咳嗽", "支气管炎", "慢性乙型肝炎防治指南", "cough_guide_2024"]
+  },
+  {
+    "id": 14,
+    "query": "头晕恶心想吐是什么原因",
+    "category": "disease",
+    "relevant_titles": ["眩晕", "内科学/眩晕", "贫血", "低血糖", "颈椎病"]
+  },
+  {
+    "id": 15,
+    "query": "血小板减少怎么办",
+    "category": "exam",
+    "relevant_titles": ["血小板减少性紫癜", "特发性血小板减少性紫癜", "血常规检查"]
+  },
+  {
+    "id": 16,
+    "query": "COPD和哮喘有什么区别",
+    "category": "disease",
+    "relevant_titles": ["慢性阻塞性肺疾病", "支气管哮喘", "copd_guide_2024", "哮喘"]
+  },
+  {
+    "id": 17,
+    "query": "胰岛素怎么注射",
+    "category": "drug",
+    "relevant_titles": ["胰岛素", "注射用头孢哌酮", "糖尿病", "diabetes_guide_2024"]
+  },
+  {
+    "id": 18,
+    "query": "发烧抽搐是什么情况",
+    "category": "disease",
+    "relevant_titles": ["惊厥", "癫痫", "fever_consensus_2026"]
+  },
+  {
+    "id": 19,
+    "query": "伤口感染怎么办",
+    "category": "disease",
+    "relevant_titles": ["伤口感染", "破伤风", "感染", "医院获得性肺炎"]
+  },
+  {
+    "id": 20,
+    "query": "肝功能检查异常说明什么",
+    "category": "exam",
+    "relevant_titles": ["肝功能", "慢性乙型肝炎防治指南", "肝硬化", "肝炎"]
+  },
+  {
+    "id": 21,
+    "query": "心绞痛和心肌梗死的区别",
+    "category": "disease",
+    "relevant_titles": ["冠心病", "不稳定型心绞痛", "心肌梗死", "急性心肌梗死"]
+  },
+  {
+    "id": 22,
+    "query": "过敏了吃什么药",
+    "category": "drug",
+    "relevant_titles": ["过敏性鼻炎", "过敏", "过敏性休克"]
+  },
+  {
+    "id": 23,
+    "query": "孕期糖尿病怎么控制血糖",
+    "category": "disease",
+    "relevant_titles": ["糖尿病", "妊娠", "diabetes_guide_2024"]
+  },
+  {
+    "id": 24,
+    "query": "胃疼胃酸烧心怎么缓解",
+    "category": "disease",
+    "relevant_titles": ["胃炎", "消化性溃疡", "胃食管反流", "急性胃炎", "奥美拉唑"]
+  },
+  {
+    "id": 25,
+    "query": "骨质疏松要做哪些检查",
+    "category": "exam",
+    "relevant_titles": ["骨质疏松", "骨密度", "血钙"]
+  }
+]

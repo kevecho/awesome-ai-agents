@@ -1,0 +1,9 @@
+# +BM25 (无停用词) — k1=1.2, b=0.75, 保留所有分词结果
+name: "+BM25 (无停用词)"
+description: "真 BM25 (k1=1.2, b=0.75, 无停用词过滤) + 稠密检索 + RRF 融合"
+params:
+  top_k: 20
+  score_threshold: 0.0
+  bm25_k1: 1.2
+  bm25_b: 0.75
+  use_stopwords: false

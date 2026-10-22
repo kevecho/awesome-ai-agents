@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "total": 100,
+    "categories": {},
+    "generated_at": "2026-08-03T10:20:56",
+    "config": {
+      "count": 100,
+      "concurrency": 8
+    }
+  },
+  "queries": [
+    {
+      "id": 1,
+      "query": "百合都有哪些品种啊？",
+      "chunk_index": 18902,
+      "category": "drug"
+    },
+    {
+      "id": 2,
+      "query": "蚯蚓被切成两段后还能长成两条完整的蚯蚓吗？",
+      "chunk_index": 19768,
+      "category": "drug"
+    },
+    {
+      "id": 3,
+      "query": "异丙醇用完的空瓶子该怎么处理？能直接扔吗？",
+      "chunk_index": 8953,
+      "category": "disease"
+    },
+    {
+      "id": 4,
+      "query": "便秘了喝牛奶有用吗？每天该喝多少水才能通便？",
+      "chunk_index": 5529,
+      "category": "disease"
+    },
+    {
+      "id": 5,
+      "query": "脖子受过伤以后，会不会更容易得脊髓型颈椎病？",
+      "chunk_index": 8960,
+      "category": "disease"
+    },
+    {
+      "id": 6,
+      "query": "湿疹用这个药膏抹多久能好？一天抹几次？",
+      "chunk_index": 11475,
+      "category": "disease"
+    },
+    {
+      "id": 7,
+      "query": "厚朴丸一般一次吃多少粒？",
+      "chunk_index": 19488,
+      "category": "drug"
+    },
+    {
+      "id": 8,
+      "query": "为什么医院里会发生严重的医疗事故，主要原因是不是医生水平不行或者不负责？",
+      "chunk_index": 413,
+      "category": "disease"
+    },
+    {
+      "id": 9,
+      "query": "磺胺间甲氧嘧啶片能治什么病？",
+      "chunk_index": 4565,
+      "category": "disease"
+    },
+    {
+      "id": 10,
+      "query": "为什么铁锈在氧气里放久了成分会变，和温度有关系吗？",
+      "chunk_index": 21588,
+      "category": "drug"
+    },
+    {
+      "id": 11,
+      "query": "肛周脓肿是怎么检查出来的？有什么方法能确诊？",
+      "chunk_index": 3269,
+      "category": "disease"
+    },
+    {
+      "id": 12,
+      "query": "为什么人肚子里大部分细菌都在大肠里，小肠里细菌很少？",
+      "chunk_index": 1829,
+      "category": "disease"
+    },
+    {
+      "id": 13,
+      "query": "婴儿黄疸一直不退是什么原因？肝功能不正常和胆汁淤积有关系吗？",
+      "chunk_index": 9220,
+      "category": "disease"
+    },
+    {
+      "id": 14,
+      "query": "植物生长和环境的书有哪些值得推荐的？",
+      "chunk_index": 18428,
+      "category": "drug"
+    },
+    {
+      "id": 15,
+      "query": "前列腺癌的病理分级一般有哪几种方法？老百姓常说的格里森分级是啥意思？",
+      "chunk_index": 8303,
+      "category": "disease"
+    },
+    {
+      "id": 16,
+      "query": "宫颈炎一般都有哪些症状啊？",
+      "chunk_index": 5591,
+      "category": "disease"
+    },
+    {
+      "id": 17,
+      "query": "无功能垂体瘤怎么检查出来？",
+      "chunk_index": 1683,
+      "category": "disease"
+    },
+    {
+      "id": 18,
+      "query": "慈铭体检的创始人是怎样管理团队和用人的？",
+      "chunk_index": 26970,
+      "category": "exam"
+    },
+    {
+      "id": 19,
+      "query": "慢粒白血病到了加速期，骨髓里纤维会变多吗？",
+      "chunk_index": 12187,
+      "category": "disease"
+    },
+    {
+      "id": 20,
+      "query": "应激性溃疡一般多久会出血？出血能止住吗？",
+      "chunk_index": 9894,
+      "category": "disease"
+    },
+    {
+      "id": 21,
+      "query": "家里有人得过结肠癌，我是不是得这个病的风险也会比别人高啊？",
+      "chunk_index": 9705,
+      "category": "disease"
+    },
+    {
+      "id": 22,
+      "query": "女性一般多少岁绝经算正常？",
+      "chunk_index": 6242,
+      "category": "disease"
+    },
+    {
+      "id": 23,
+      "query": "萝卜叶子能不能治喉咙疼和乳房肿痛？",
+      "chunk_index": 24535,
+      "category": "drug"
+    },
+    {
+      "id": 24,
+      "query": "大夫说用654-2和东莨菪碱治脑袋水肿，一般打多久能见效果啊？",
+      "chunk_index": 12471,
+      "category": "disease"
+    },
+    {
+      "id": 25,
+      "query": "华佗发明的麻沸散是干什么用的？",
+      "chunk_index": 17792,
+      "category": "drug"
+    },
+    {
+      "id": 26,
+      "query": "硫酸是啥味道的？",
+      "chunk_index": 19570,
+      "category": "drug"
+    },
+    {
+      "id": 27,
+      "query": "马礼堂养气功是什么？有什么作用？",
+      "chunk_index": 3539,
+      "category": "disease"
+    },
+    {
+      "id": 28,
+      "query": "肾炎会遗传给下一代吗？",
+      "chunk_index": 4025,
+      "category": "disease"
+    },
+    {
+      "id": 29,
+      "query": "白带多，小肚子疼，吃什么东西能调理一下？",
+      "chunk_index": 21974,
+      "category": "drug"
+    },
+    {
+      "id": 30,
+      "query": "替勃龙这个药是口服的还是外用的，一般怎么吃？",
+      "chunk_index": 13303,
+      "category": "disease"
+    },
+    {
+      "id": 31,
+      "query": "乳腺癌早期没扩散到淋巴结，肿瘤很小的话，是不是就不用做化疗了？",
+      "chunk_index": 4519,
+      "category": "disease"
+    },
+    {
+      "id": 32,
+      "query": "孕妇血型不合会对宝宝造成什么影响？是不是O型血妈妈最容易发生新生儿溶血？",
+      "chunk_index": 14671,
+      "category": "disease"
+    },
+    {
+      "id": 33,
+      "query": "荸荠和海蜇一起煮汤喝有什么好处？",
+      "chunk_index": 20091,
+      "category": "drug"
+    },
+    {
+      "id": 34,
+      "query": "橘子皮里都有哪些成分？",
+      "chunk_index": 25247,
+      "category": "drug"
+    },
+    {
+      "id": 35,
+      "query": "长春花都有哪些常见的品种啊？",
+      "chunk_index": 21836,
+      "category": "drug"
+    },
+    {
+      "id": 36,
+      "query": "护士怎么能帮病人减轻疼痛？除了打针吃药，还有啥别的办法吗？",
+      "chunk_index": 14292,
+      "category": "disease"
+    },
+    {
+      "id": 37,
+      "query": "奥沙普秦胶囊能治什么病？",
+      "chunk_index": 16490,
+      "category": "drug"
+    },
+    {
+      "id": 38,
+      "query": "头疼或者胃疼，用艾草放在红纸人身上烧一下就能治病吗？",
+      "chunk_index": 3623,
+      "category": "disease"
+    },
+    {
+      "id": 39,
+      "query": "半夏这个药方一般是怎么煎的？要加什么东西一起煮？",
+      "chunk_index": 16451,
+      "category": "drug"
+    },
+    {
+      "id": 40,
+      "query": "六味地黄丸一丸有多重？",
+      "chunk_index": 20565,
+      "category": "drug"
+    },
+    {
+      "id": 41,
+      "query": "我听说地菍能治痢疾和蛔虫，这药一般怎么用？",
+      "chunk_index": 24569,
+      "category": "drug"
+    },
+    {
+      "id": 42,
+      "query": "纹身“保罗图案”是什么意思？是不是就是纯黑色的那种？",
+      "chunk_index": 11122,
+      "category": "disease"
+    },
+    {
+      "id": 43,
+      "query": "膝盖扭伤做核磁能看出来韧带撕裂吗？",
+      "chunk_index": 27070,
+      "category": "exam"
+    },
+    {
+      "id": 44,
+      "query": "羚羊角汤这药治肺风鼻子干疼是怎么个喝法？",
+      "chunk_index": 18554,
+      "category": "drug"
+    },
+    {
+      "id": 45,
+      "query": "半边旗这味药，是不是能治外伤出血和跌打损伤？",
+      "chunk_index": 22000,
+      "category": "drug"
+    },
+    {
+      "id": 46,
+      "query": "放射病病人出血了，吃什么药能止血或者帮助血小板恢复？",
+      "chunk_index": 3824,
+      "category": "disease"
+    },
+    {
+      "id": 47,
+      "query": "硝普钠这个降压药打点滴的时候要注意啥？",
+      "chunk_index": 2625,
+      "category": "disease"
+    },
+    {
+      "id": 48,
+      "query": "发烧一直查不出原因，住院后每天医生都会检查哪些地方？",
+      "chunk_index": 28400,
+      "category": "guideline"
+    },
+    {
+      "id": 49,
+      "query": "甲鱼有什么营养价值？对女性有啥好处？",
+      "chunk_index": 12548,
+      "category": "disease"
+    },
+    {
+      "id": 50,
+      "query": "戒烟对慢性阻塞性肺病有没有帮助？",
+      "chunk_index": 27354,
+      "category": "guideline"
+    },
+    {
+      "id": 51,
+      "query": "赫赛汀这个药是治什么病的？",
+      "chunk_index": 1588,
+      "category": "disease"
+    },
+    {
+      "id": 52,
+      "query": "维生素C和B2是谁研究出来的？",
+      "chunk_index": 2293,
+      "category": "disease"
+    },
+    {
+      "id": 53,
+      "query": "小孩尿血有什么中药方子能治吗？",
+      "chunk_index": 20312,
+      "category": "drug"
+    },
+    {
+      "id": 54,
+      "query": "做前列腺核磁能查出来是不是癌症吗？还是说必须得穿刺活检才能确诊？",
+      "chunk_index": 6943,
+      "category": "disease"
+    },
+    {
+      "id": 55,
+      "query": "断奶的时候乳房胀得难受，用芒硝敷一边乳房就能只给这一边回奶吗？",
+      "chunk_index": 10509,
+      "category": "disease"
+    },
+    {
+      "id": 56,
+      "query": "胆南星是治什么病的？",
+      "chunk_index": 21403,
+      "category": "drug"
+    },
+    {
+      "id": 57,
+      "query": "阿莫西林能治扁桃体发炎吗？",
+      "chunk_index": 4570,
+      "category": "disease"
+    },
+    {
+      "id": 58,
+      "query": "慢性前列腺炎分几种类型？有啥区别？",
+      "chunk_index": 6931,
+      "category": "disease"
+    },
+    {
+      "id": 59,
+      "query": "这知识库内容是啥啊？怎么全是书名和年份，一个医学知识都没有，是不是发错文档了？",
+      "chunk_index": 18415,
+      "category": "drug"
+    },
+    {
+      "id": 60,
+      "query": "肚子胀的时候能吃鸡蛋和红枣吗？",
+      "chunk_index": 11527,
+      "category": "disease"
+    },
+    {
+      "id": 61,
+      "query": "情绪不好的时候，医生一般会怎么搭配用药？",
+      "chunk_index": 106,
+      "category": "disease"
+    },
+    {
+      "id": 62,
+      "query": "酶是干什么用的？人体里的酶有啥作用啊？",
+      "chunk_index": 17037,
+      "category": "drug"
+    },
+    {
+      "id": 63,
+      "query": "医院公开的看病质量数据，对患者选医院到底有没有用啊？",
+      "chunk_index": 438,
+      "category": "disease"
+    },
+    {
+      "id": 64,
+      "query": "糖尿病酮症酸中毒是啥意思？",
+      "chunk_index": 27915,
+      "category": "guideline"
+    },
+    {
+      "id": 65,
+      "query": "我小便的时候感觉又疼又急，老想去厕所，是不是膀胱有啥问题，吃啥药管用？",
+      "chunk_index": 23205,
+      "category": "drug"
+    },
+    {
+      "id": 66,
+      "query": "阿替洛尔这个药突然停药会有什么危险？",
+      "chunk_index": 3594,
+      "category": "disease"
+    },
+    {
+      "id": 67,
+      "query": "博莱霉素这个药现在还用吗，什么情况下才给病人用？",
+      "chunk_index": 1539,
+      "category": "disease"
+    },
+    {
+      "id": 68,
+      "query": "人老了以后神经细胞和心肌细胞会有什么变化？",
+      "chunk_index": 1428,
+      "category": "disease"
+    },
+    {
+      "id": 69,
+      "query": "强迫症总是忍不住反复洗手，怎么才能改掉这个毛病？",
+      "chunk_index": 3669,
+      "category": "disease"
+    },
+    {
+      "id": 70,
+      "query": "感染性休克补液用什么药？补多少量算补够了？",
+      "chunk_index": 12173,
+      "category": "disease"
+    },
+    {
+      "id": 71,
+      "query": "骨折一般多长时间开始长骨痂？大人和小孩长骨痂的时间一样吗？",
+      "chunk_index": 26602,
+      "category": "exam"
+    },
+    {
+      "id": 72,
+      "query": "怀孕了老是吐，闻点啥能舒服点？",
+      "chunk_index": 21694,
+      "category": "drug"
+    },
+    {
+      "id": 73,
+      "query": "腿脚没劲、膝盖疼，医生让做体格检查，都查哪些动作和项目啊？",
+      "chunk_index": 26432,
+      "category": "exam"
+    },
+    {
+      "id": 74,
+      "query": "我孩子刚出生就得了大疱性表皮松解症，医生说是一种特殊类型，说能自己好，不落疤，这是真的吗？",
+      "chunk_index": 10680,
+      "category": "disease"
+    },
+    {
+      "id": 75,
+      "query": "急性肾小管坏死这个病能治好吗？",
+      "chunk_index": 2557,
+      "category": "disease"
+    },
+    {
+      "id": 76,
+      "query": "司美格鲁肽这个药，肾不好的人能吃吗？",
+      "chunk_index": 27717,
+      "category": "guideline"
+    },
+    {
+      "id": 77,
+      "query": "大狼毒能治什么病，怎么用？",
+      "chunk_index": 21746,
+      "category": "drug"
+    },
+    {
+      "id": 78,
+      "query": "胃癌和胃溃疡怎么区分？",
+      "chunk_index": 5898,
+      "category": "disease"
+    },
+    {
+      "id": 79,
+      "query": "金银花叶子做保健品啥时候摘最好？",
+      "chunk_index": 17400,
+      "category": "drug"
+    },
+    {
+      "id": 80,
+      "query": "大蒜液气管注射治肺结核，一般打多久能看到痰转阴的效果？",
+      "chunk_index": 16915,
+      "category": "drug"
+    },
+    {
+      "id": 81,
+      "query": "大蒜是怎么来的？谁把它带到中国的？",
+      "chunk_index": 16885,
+      "category": "drug"
+    },
+    {
+      "id": 82,
+      "query": "小孩疳积肚子疼，胡黄连丸一天吃几次？",
+      "chunk_index": 20501,
+      "category": "drug"
+    },
+    {
+      "id": 83,
+      "query": "脾切除手术前需要做哪些准备？",
+      "chunk_index": 6892,
+      "category": "disease"
+    },
+    {
+      "id": 84,
+      "query": "吃乙肝抗病毒药，会不会伤肾或者引起肌肉疼这类副作用？",
+      "chunk_index": 524,
+      "category": "disease"
+    },
+    {
+      "id": 85,
+      "query": "老年人高血压吃药，是不是一种药不行就再加一种，还是直接加量啊？",
+      "chunk_index": 7379,
+      "category": "disease"
+    },
+    {
+      "id": 86,
+      "query": "在英国，如果医生或者护士发现了医院里的严重问题，想要向外界举报，但怕被报复，有什么法律保护他们吗？",
+      "chunk_index": 492,
+      "category": "disease"
+    },
+    {
+      "id": 87,
+      "query": "蝈蝈的种类有哪些，都是怎么叫的？",
+      "chunk_index": 23304,
+      "category": "drug"
+    },
+    {
+      "id": 88,
+      "query": "日本时蚕这个蚕豆品种好不好种？产量怎么样？",
+      "chunk_index": 19186,
+      "category": "drug"
+    },
+    {
+      "id": 89,
+      "query": "垂体瘤引起的视野缺损都有哪几种类型？平时看东西会不会出现看不见的情况？",
+      "chunk_index": 1678,
+      "category": "disease"
+    },
+    {
+      "id": 90,
+      "query": "蚕豆皮煮水喝能治脚肿吗？",
+      "chunk_index": 24830,
+      "category": "drug"
+    },
+    {
+      "id": 91,
+      "query": "猪笼草为什么叫猪笼草，它的捕虫囊长什么样子？",
+      "chunk_index": 20132,
+      "category": "drug"
+    },
+    {
+      "id": 92,
+      "query": "糖尿病患者血压高，平时吃的降压药选哪种比较好？",
+      "chunk_index": 27696,
+      "category": "guideline"
+    },
+    {
+      "id": 93,
+      "query": "慢阻肺急性加重的时候，抽血查降钙素原能看出是不是细菌感染吗？",
+      "chunk_index": 27302,
+      "category": "guideline"
+    },
+    {
+      "id": 94,
+      "query": "X光、B超这些影像检查是怎么来的？最早是谁发现的？",
+      "chunk_index": 26205,
+      "category": "exam"
+    },
+    {
+      "id": 95,
+      "query": "螺旋藻里的蛋白质有啥好处？",
+      "chunk_index": 17053,
+      "category": "drug"
+    },
+    {
+      "id": 96,
+      "query": "子宫内膜癌晚期一般都会转移到哪些地方？",
+      "chunk_index": 11768,
+      "category": "disease"
+    },
+    {
+      "id": 97,
+      "query": "胃寒胃痛平时吃点什么能调理？有没有什么偏方或者食疗的方法？",
+      "chunk_index": 12104,
+      "category": "disease"
+    },
+    {
+      "id": 98,
+      "query": "乳腺检查哪种方法最准？做彩超能查出来乳腺癌吗？",
+      "chunk_index": 9685,
+      "category": "disease"
+    },
+    {
+      "id": 99,
+      "query": "食管癌扩散到别的器官有哪些方式？",
+      "chunk_index": 1523,
+      "category": "disease"
+    },
+    {
+      "id": 100,
+      "query": "胆囊切除以后是不是就不能吃油腻的东西了？",
+      "chunk_index": 13244,
+      "category": "disease"
+    }
+  ]
+}
